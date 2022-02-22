@@ -1,0 +1,39 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  background-color: #4c643d;
+  margin: 5px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+#texto-inicial {
+  font-size: 36px;
+  padding: 20px;
+}
+
+#botones {
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+
+#botones button img {
+  width: 70%;
+  height: 70%;
+}
